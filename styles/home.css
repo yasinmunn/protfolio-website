@@ -1,4 +1,11 @@
 /* Global Style */
+*{
+    margin-right:0px;
+    padding-left:0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    box-sizing: border-box;
+}
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -20,7 +27,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 200px ;
+    margin: 0px 150px ;
 
 }
 .nav-title {
@@ -48,14 +55,49 @@ nav a {
 
 .header{
     background-color:#FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner{
-    padding: 40px 38px 40px 200px;
+    padding: 40px 38px 0px 150px;
     display: flex;
     align-items: center;
-    
+    justify-content: space-between;
+
 }
 .hero-img{
     width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-content{
+    max-width: 500px;
+}
+.banner-description{
+    margin-bottom: 20px;
+}
+.btn-contact{
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FD6E0A;
+    padding:19px 18px;
+    margin-left: 20px;
+}
+.fa-solid {
+    padding-right: 10px;
 }
